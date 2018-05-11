@@ -15,7 +15,8 @@
         mode="horizontal"
         background-color="#2C305C"
         text-color="#fff"
-        active-text-color="#ffd04b">
+        active-text-color="#ffd04b"
+        tex>
         <el-menu-item index="1"><router-link to='/'>首页</router-link></el-menu-item>
         <el-menu-item index="2"><router-link to='/notice'>通知公告</router-link></el-menu-item>
         <el-menu-item index="3"><router-link to='/join'>参会报名</router-link></el-menu-item>
@@ -35,12 +36,12 @@ export default {
   div.header-wrapper {
     a {
       color: #ffffff;
+      text-decoration: none;
     }
     width: 100%;
     height: 210px;
-    background-image: url(../../assets/bg_small.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background: url(../../assets/bg_small.jpg) no-repeat;
     .logo-line {
       height: 117px;
       padding : 30px 15% 0 15%;
